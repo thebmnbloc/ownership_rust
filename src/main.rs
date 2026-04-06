@@ -16,5 +16,5 @@ fn bior_name() -> String {
    let mut name = String::from("Bior"); // creates a String from a string literal
    name.push_str(" is awesome!"); // appends a string literal to the String
    println!("{}", name); // prints the string
-   name; // returns the string
+   return name // returns the string
 }
